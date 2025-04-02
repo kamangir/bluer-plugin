@@ -47,4 +47,4 @@ pip install bluer-plugin
 
 [![pylint](https://github.com/kamangir/bluer-plugin/actions/workflows/pylint.yml/badge.svg)](https://github.com/kamangir/bluer-plugin/actions/workflows/pylint.yml) [![pytest](https://github.com/kamangir/bluer-plugin/actions/workflows/pytest.yml/badge.svg)](https://github.com/kamangir/bluer-plugin/actions/workflows/pytest.yml) [![bashtest](https://github.com/kamangir/bluer-plugin/actions/workflows/bashtest.yml/badge.svg)](https://github.com/kamangir/bluer-plugin/actions/workflows/bashtest.yml) [![PyPI version](https://img.shields.io/pypi/v/bluer-plugin.svg)](https://pypi.org/project/bluer-plugin/) [![PyPI - Downloads](https://img.shields.io/pypi/dd/bluer-plugin)](https://pypistats.org/packages/bluer-plugin)
 
-built by 🌀 [`bluer_options-5.29.1`](https://github.com/kamangir/awesome-bash-cli), based on 🌀 [`bluer_plugin-4.3.1`](https://github.com/kamangir/bluer-plugin).
+built by 🌀 [`bluer_options-5.29.1`](https://github.com/kamangir/awesome-bash-cli), based on 🌀 [`bluer_plugin-4.4.1`](https://github.com/kamangir/bluer-plugin).

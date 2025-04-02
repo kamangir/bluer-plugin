@@ -6,7 +6,7 @@ from bluer_plugin import env
 
 def test_required_env():
     test_bluer_ai_env()
-    test_blue_objects_env()
+    test_bluer_objects_env()
 
 
 def test_bluer_plugin_env():
