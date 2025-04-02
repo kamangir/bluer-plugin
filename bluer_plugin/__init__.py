@@ -2,9 +2,9 @@ NAME = "bluer_plugin"
 
 ICON = "🌀"
 
-DESCRIPTION = f"{ICON} a git template for an awesome-bash-cli plugin."
+DESCRIPTION = f"{ICON} a git template for a bluer-ai plugin."
 
-VERSION = "4.4.1"
+VERSION = "4.5.1"
 
 REPO_NAME = "bluer-plugin"
 
