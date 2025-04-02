@@ -29,7 +29,7 @@ pip install bluer-plugin
 @plugins transform <repo-name>
 
 @init
-<plugin-name> help
+@help @<plugin-name>
 ```
 
 ## features

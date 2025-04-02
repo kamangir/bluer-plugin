@@ -1,6 +1,6 @@
 from typing import List
 
-from blue_options.terminal import show_usage, xtra
+from bluer_options.terminal import show_usage, xtra
 
 
 def help_node(
@@ -50,4 +50,3 @@ help_functions = {
     "": help_node,
     "leaf": help_node_leaf,
 }
-
