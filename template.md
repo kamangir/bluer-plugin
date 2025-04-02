@@ -38,4 +38,8 @@ items:::
 
 ---
 
+> 🌀 [`blue-plugin`](https://github.com/kamangir/blue-plugin) for the [Global South](https://github.com/kamangir/bluer-south).
+
+---
+
 signature:::
