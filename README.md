@@ -1,6 +1,6 @@
 # 🌀 bluer-plugin
 
-🌀 `@plugin` is a git template for a 🪄 [`bluer-ai`](https://github.com/kamangir/bluer-ai)  plugin, to build [things like these](https://github.com/kamangir?tab=repositories), that out-of-the-box support,
+🌀 `@plugin` is a git template for a [`bluer-ai`](https://github.com/kamangir/bluer-ai) plugin, to build [things like these](https://github.com/kamangir?tab=repositories), that out-of-the-box support,
 
 - a [github repo](https://github.com/) with [actions](https://github.com/features/actions).
 - [pylint](https://pypi.org/project/pylint/).
@@ -47,4 +47,4 @@ pip install bluer-plugin
 
 [![pylint](https://github.com/kamangir/bluer-plugin/actions/workflows/pylint.yml/badge.svg)](https://github.com/kamangir/bluer-plugin/actions/workflows/pylint.yml) [![pytest](https://github.com/kamangir/bluer-plugin/actions/workflows/pytest.yml/badge.svg)](https://github.com/kamangir/bluer-plugin/actions/workflows/pytest.yml) [![bashtest](https://github.com/kamangir/bluer-plugin/actions/workflows/bashtest.yml/badge.svg)](https://github.com/kamangir/bluer-plugin/actions/workflows/bashtest.yml) [![PyPI version](https://img.shields.io/pypi/v/bluer-plugin.svg)](https://pypi.org/project/bluer-plugin/) [![PyPI - Downloads](https://img.shields.io/pypi/dd/bluer-plugin)](https://pypistats.org/packages/bluer-plugin)
 
-built by 🌀 [`bluer_options-5.31.1`](https://github.com/kamangir/awesome-bash-cli), based on 🌀 [`bluer_plugin-4.7.1`](https://github.com/kamangir/bluer-plugin).
+built by 🌀 [`bluer_options-5.42.1`](https://github.com/kamangir/awesome-bash-cli), based on 🌀 [`bluer_plugin-4.8.1`](https://github.com/kamangir/bluer-plugin).
