@@ -1,6 +1,6 @@
 # 🌀 bluer-plugin
 
-🌀 `@plugin` is a git template for a 🪄 [`bluer-ai`](https://github.com/kamangir/bluer-ai)  plugin, to build [things like these](https://github.com/kamangir?tab=repositories), that out-of-the-box support,
+🌀 `@plugin` is a git template for a [`bluer-ai`](https://github.com/kamangir/bluer-ai) plugin, to build [things like these](https://github.com/kamangir?tab=repositories), that out-of-the-box support,
 
 - a [github repo](https://github.com/) with [actions](https://github.com/features/actions).
 - [pylint](https://pypi.org/project/pylint/).
