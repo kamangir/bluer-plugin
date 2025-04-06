@@ -33,6 +33,7 @@ pip install bluer-plugin
 pip3 install -e .
 
 @init
+
 @help @<plugin-name>
 ```
 
