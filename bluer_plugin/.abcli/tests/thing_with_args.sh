@@ -9,7 +9,7 @@ function test_bluer_plugin_thing_with_args() {
         abcli_log "testing arg=$arg ..."
 
         abcli_eval ,$options \
-            echo "🪄 $arg"
+            echo "🌀 $arg"
         [[ $? -ne 0 ]] && return 1
 
         abcli_hr

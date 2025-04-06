@@ -8,7 +8,7 @@ function bluer_plugin_node() {
         $function_name "${@:2}"
         return
     fi
-    abcli_log "bluer-plugin: node: 🪄"
+    abcli_log "bluer-plugin: node: 🌀"
 }
 
 bluer_ai_source_caller_suffix_path /node
