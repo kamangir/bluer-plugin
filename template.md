@@ -28,7 +28,12 @@ pip install bluer-plugin
 
 @plugins transform <repo-name>
 
+# review and clean up the repo.
+
+pip3 install -e .
+
 @init
+
 @help @<plugin-name>
 ```
 
