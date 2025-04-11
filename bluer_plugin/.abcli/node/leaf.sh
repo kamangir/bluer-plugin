@@ -13,7 +13,7 @@ function bluer_plugin_node_leaf() {
 
     local object_name_2=$(abcli_clarify_object $3 bluer_plugin_node_leaf-$(abcli_string_timestamp))
 
-    abcli_eval dryrun=$do_dryrun \
+    bluer_ai_eval dryrun=$do_dryrun \
         python3 -m bluer_plugin.node \
         leaf \
         --object_name_1 $object_name_1 \

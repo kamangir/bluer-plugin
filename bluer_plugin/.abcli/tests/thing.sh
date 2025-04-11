@@ -5,6 +5,6 @@ function test_bluer_plugin_thing() {
 
     local test_options=$2
 
-    abcli_eval ,$options \
+    bluer_ai_eval ,$options \
         "echo 📜 bluer-plugin: test: thing: $test_options: ${@:3}."
 }

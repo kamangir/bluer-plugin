@@ -25,11 +25,11 @@ function test_bluer_plugin_help() {
         "@plugin task" \
         \
         "bluer_plugin"; do
-        abcli_eval ,$options \
+        bluer_ai_eval ,$options \
             bluer_ai_help $module
         [[ $? -ne 0 ]] && return 1
 
-        abcli_hr
+        bluer_ai_hr
     done
 
     return 0

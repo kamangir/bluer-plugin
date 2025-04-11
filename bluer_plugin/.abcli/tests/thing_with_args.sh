@@ -8,10 +8,10 @@ function test_bluer_plugin_thing_with_args() {
     for arg in this that; do
         abcli_log "testing arg=$arg ..."
 
-        abcli_eval ,$options \
+        bluer_ai_eval ,$options \
             echo "🌀 $arg"
         [[ $? -ne 0 ]] && return 1
 
-        abcli_hr
+        bluer_ai_hr
     done
 }
