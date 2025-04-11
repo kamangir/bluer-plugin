@@ -10,7 +10,7 @@ function bluer_plugin() {
 
         local object_name_1=$(abcli_clarify_object $3 .)
 
-        abcli_eval dryrun=$do_dryrun \
+        bluer_ai_eval dryrun=$do_dryrun \
             python3 -m bluer_plugin \
             task \
             --what "$what" \
@@ -20,7 +20,7 @@ function bluer_plugin() {
         return
     fi
 
-    abcli_generic_task \
+    bluer_ai_generic_task \
         plugin=bluer_plugin,task=$task \
         "${@:2}"
 }
