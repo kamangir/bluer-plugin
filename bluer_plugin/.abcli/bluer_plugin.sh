@@ -5,8 +5,8 @@ function bluer_plugin() {
 
     if [ "$task" == "task" ]; then
         local options=$2
-        local do_dryrun=$(abcli_option "$options" dryrun 0)
-        local what=$(abcli_option "$options" what all)
+        local do_dryrun=$(bluer_ai_option "$options" dryrun 0)
+        local what=$(bluer_ai_option "$options" what all)
 
         local object_name_1=$(bluer_ai_clarify_object $3 .)
 
