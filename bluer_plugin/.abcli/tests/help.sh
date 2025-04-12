@@ -17,7 +17,6 @@ function test_bluer_plugin_help() {
         "@plugin test" \
         "@plugin test list" \
         \
-        "@plugin browse" \
         "@plugin leaf" \
         "@plugin node" \
         "@plugin node leaf" \
