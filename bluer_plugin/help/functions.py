@@ -7,23 +7,6 @@ from bluer_plugin import ALIAS
 from bluer_plugin.help.node.functions import help_functions as help_node
 
 
-def help_browse(
-    tokens: List[str],
-    mono: bool,
-) -> str:
-    options = "actions|repo"
-
-    return show_usage(
-        [
-            "@plugin",
-            "browse",
-            f"[{options}]",
-        ],
-        "browse bluer_plugin.",
-        mono=mono,
-    )
-
-
 def help_leaf(
     tokens: List[str],
     mono: bool,
@@ -74,7 +57,6 @@ help_functions = generic_help_functions(plugin_name=ALIAS)
 
 help_functions.update(
     {
-        "browse": help_browse,
         "leaf": help_leaf,
         "node": help_node,
         "task": help_task,
