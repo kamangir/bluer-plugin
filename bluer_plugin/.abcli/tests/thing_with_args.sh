@@ -6,7 +6,7 @@ function test_bluer_plugin_thing_with_args() {
 
     local arg
     for arg in this that; do
-        abcli_log "testing arg=$arg ..."
+        bluer_ai_log "testing arg=$arg ..."
 
         bluer_ai_eval ,$options \
             echo "🌀 $arg"
