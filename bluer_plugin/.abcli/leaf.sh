@@ -1,5 +1,5 @@
 #! /usr/bin/env bash
 
 function bluer_plugin_leaf() {
-    abcli_log "bluer-plugin: leaf: 🌀"
+    bluer_ai_log "bluer-plugin: leaf: 🌀"
 }

@@ -25,4 +25,4 @@ function bluer_plugin() {
         "${@:2}"
 }
 
-abcli_log $(bluer_plugin version --show_icon 1)
+bluer_ai_log $(bluer_plugin version --show_icon 1)
