@@ -4,7 +4,7 @@ ICON = "🌀"
 
 DESCRIPTION = f"{ICON} A git template for a bluer-ai plugin."
 
-VERSION = "4.37.1"
+VERSION = "4.38.1"
 
 REPO_NAME = "bluer-plugin"
 
