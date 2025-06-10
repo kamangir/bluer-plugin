@@ -52,4 +52,4 @@ pip3 install -e .
 
 [![pylint](https://github.com/kamangir/bluer-plugin/actions/workflows/pylint.yml/badge.svg)](https://github.com/kamangir/bluer-plugin/actions/workflows/pylint.yml) [![pytest](https://github.com/kamangir/bluer-plugin/actions/workflows/pytest.yml/badge.svg)](https://github.com/kamangir/bluer-plugin/actions/workflows/pytest.yml) [![bashtest](https://github.com/kamangir/bluer-plugin/actions/workflows/bashtest.yml/badge.svg)](https://github.com/kamangir/bluer-plugin/actions/workflows/bashtest.yml) [![PyPI version](https://img.shields.io/pypi/v/bluer-plugin.svg)](https://pypi.org/project/bluer-plugin/) [![PyPI - Downloads](https://img.shields.io/pypi/dd/bluer-plugin)](https://pypistats.org/packages/bluer-plugin)
 
-built by 🌀 [`bluer README`](https://github.com/kamangir/bluer-objects/tree/main/bluer_objects/README), based on 🌀 [`bluer_plugin-4.39.1`](https://github.com/kamangir/bluer-plugin).
+built by 🌀 [`bluer README`](https://github.com/kamangir/bluer-objects/tree/main/bluer_objects/README), based on 🌀 [`bluer_plugin-4.40.1`](https://github.com/kamangir/bluer-plugin).
