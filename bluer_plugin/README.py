@@ -36,6 +36,7 @@ def build():
         )
         for readme in [
             {"path": "..", "items": items},
+            {"path": "./docs"},
             # aliases
             {"path": "./docs/aliases"},
             {"path": "./docs/aliases/plugin.md"},
