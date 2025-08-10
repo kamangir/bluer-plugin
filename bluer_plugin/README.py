@@ -12,7 +12,9 @@ items = README.Items(
             "name": f"feature {index}",
             "marquee": "https://github.com/kamangir/assets/raw/main/blue-plugin/marquee.png?raw=true",
             "description": f"description of feature {index} ...",
-            "url": "#",
+            "url": "./bluer_plugin/docs/feature_{}".format(
+                f"{index}.md" if index == 1 else index
+            ),
         }
         for index in range(1, 4)
     ]
@@ -45,5 +47,6 @@ def build():
             {"path": "./docs/feature_1/this.md"},
             {"path": "./docs/feature_1/that.md"},
             {"path": "./docs/feature_2.md"},
+            {"path": "./docs/feature_3.md"},
         ]
     )
