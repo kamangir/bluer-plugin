@@ -21,30 +21,28 @@ items = README.Items(
 
 def build():
     return all(
-        [
-            README.build(
-                items=readme.get("items", []),
-                path=os.path.join(file.path(__file__), readme["path"]),
-                ICON=ICON,
-                NAME=NAME,
-                VERSION=VERSION,
-                REPO_NAME=REPO_NAME,
-                help_function=lambda tokens: get_help(
-                    tokens,
-                    help_functions,
-                    mono=True,
-                ),
-            )
-            for readme in [
-                {"path": "..", "items": items},
-                # aliases
-                {"path": "./docs/aliases"},
-                {"path": "./docs/aliases/plugin.md"},
-                # features
-                {"path": "./docs/feature_1"},
-                {"path": "./docs/feature_1/this.md"},
-                {"path": "./docs/feature_1/that.md"},
-                {"path": "./docs/feature_2.md"},
-            ]
+        README.build(
+            items=readme.get("items", []),
+            path=os.path.join(file.path(__file__), readme["path"]),
+            ICON=ICON,
+            NAME=NAME,
+            VERSION=VERSION,
+            REPO_NAME=REPO_NAME,
+            help_function=lambda tokens: get_help(
+                tokens,
+                help_functions,
+                mono=True,
+            ),
+        )
+        for readme in [
+            {"path": "..", "items": items},
+            # aliases
+            {"path": "./docs/aliases"},
+            {"path": "./docs/aliases/plugin.md"},
+            # features
+            {"path": "./docs/feature_1"},
+            {"path": "./docs/feature_1/this.md"},
+            {"path": "./docs/feature_1/that.md"},
+            {"path": "./docs/feature_2.md"},
         ]
     )
