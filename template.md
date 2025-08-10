@@ -41,6 +41,10 @@ pip3 install -e .
 
 items:::
 
+# aliases
+
+[@plugin](./bluer_plugin/docs/aliases/plugin.md).
+
 ---
 
 > 🌀 [`blue-plugin`](https://github.com/kamangir/blue-plugin) for the [Global South](https://github.com/kamangir/bluer-south).
