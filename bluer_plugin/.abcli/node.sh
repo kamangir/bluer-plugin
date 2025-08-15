@@ -8,7 +8,13 @@ function bluer_plugin_node() {
         $function_name "${@:2}"
         return
     fi
-    bluer_ai_log "bluer-plugin: node: 🌀"
+
+    bluer_ai_log "@plugin: node: 🌀"
+
+    # or
+
+    bluer_ai_log_error "@plugin: node: $task: command not found."
+    return 1
 }
 
 bluer_ai_source_caller_suffix_path /node
