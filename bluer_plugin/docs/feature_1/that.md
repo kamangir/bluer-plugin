@@ -1,3 +1,3 @@
-# feature_1: that
+# feature-1: that
 
 that is this.
