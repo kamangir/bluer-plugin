@@ -1,3 +1,3 @@
-# feature_3
+# feature-3
 
 this is feature 3.
