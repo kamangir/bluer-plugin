@@ -15,6 +15,9 @@ function bluer_plugin_node() {
 
     bluer_ai_log_error "@plugin: node: $task: command not found."
     return 1
+
+    # or
+    python3 bluer_plugin.node "$@"
 }
 
 bluer_ai_source_caller_suffix_path /node
