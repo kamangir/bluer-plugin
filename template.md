@@ -43,7 +43,7 @@ items:::
 
 # aliases
 
-[@plugin](./bluer_plugin/docs/aliases/plugin.md).
+aliases:::
 
 ---
 

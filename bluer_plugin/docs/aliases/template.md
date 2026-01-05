@@ -1,3 +1,3 @@
 title:::
 
-- [@plugin](./plugin.md)
+aliases:::

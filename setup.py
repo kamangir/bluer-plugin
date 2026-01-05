@@ -13,6 +13,7 @@ setup(
         f"{NAME}.help",
         f"{NAME}.help.node",
         f"{NAME}.node",
+        f"{NAME}.README",
     ],
     include_package_data=True,
     package_data={
@@ -23,4 +24,3 @@ setup(
         ],
     },
 )
-
