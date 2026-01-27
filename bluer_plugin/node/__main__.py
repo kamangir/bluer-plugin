@@ -17,7 +17,7 @@ parser.add_argument(
 )
 parser.add_argument(
     "--arg",
-    type=bool,
+    type=int,
     default=0,
     help="0|1",
 )
@@ -30,4 +30,3 @@ else:
     success = None
 
 sys_exit(logger, NAME, args.task, success)
-
