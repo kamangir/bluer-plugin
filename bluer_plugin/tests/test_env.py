@@ -1,3 +1,4 @@
+from bluer_options.testing import are_nonempty_strs
 from bluer_ai.tests.test_env import test_bluer_ai_env
 from bluer_objects.tests.test_env import test_bluer_objects_env
 
@@ -10,5 +11,9 @@ def test_required_env():
 
 
 def test_bluer_plugin_env():
-    assert env.BLUER_PLUGIN_SECRET
-    assert env.BLUER_PLUGIN_CONFIG
+    assert are_nonempty_strs(
+        [
+            env.BLUER_PLUGIN_SECRET,
+            env.BLUER_PLUGIN_CONFIG,
+        ]
+    )
