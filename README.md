@@ -8,7 +8,7 @@
 - a pip-installable python + bash package published to [pypi](https://pypi.org/).
 - a bash [command interface](./bluer_plugin/.abcli/bluer_plugin.sh).
 - [bash testing](./.github/workflows/bashtest.yml).
-- in-repo [compiled](https://github.com/kamangir/bluer-objects/tree/main/bluer_objects/README) READMEs. example: [template.md](https://github.com/kamangir/palisades/blob/main/palisades/docs/damage-analytics-template.md) -> [README.md](https://github.com/kamangir/palisades/blob/main/palisades/docs/damage-analytics.md).
+- in-repo [compiled](../bluer-objects/bluer_objects/README) READMEs. example: [template.md](https://github.com/kamangir/palisades/blob/main/palisades/docs/damage-analytics-template.md) -> [README.md](https://github.com/kamangir/palisades/blob/main/palisades/docs/damage-analytics.md).
 - [object management](https://github.com/kamangir/blue-objects) with cloud persistence with metadata tracking by [MLflow](https://mlflow.org/).
 
 ## installation
@@ -41,7 +41,7 @@ pip3 install -e .
 
 |   |   |   |
 | --- | --- | --- |
-| [`feature 1`](./bluer_plugin/docs/feature_1) [![image](https://github.com/kamangir/assets/raw/main/blue-plugin/marquee.png?raw=true)](./bluer_plugin/docs/feature_1) description of feature 1 ... | [`feature 2`](./bluer_plugin/docs/feature_2.md) [![image](https://github.com/kamangir/assets/raw/main/blue-plugin/marquee.png?raw=true)](./bluer_plugin/docs/feature_2.md) description of feature 2 ... | [`feature 3`](./bluer_plugin/docs/feature_3.md) [![image](https://github.com/kamangir/assets/raw/main/blue-plugin/marquee.png?raw=true)](./bluer_plugin/docs/feature_3.md) description of feature 3 ... |
+| [`feature 1`](./bluer_plugin/docs/feature_1) [![image](../assets/blue-plugin/marquee.png?raw=true)](./bluer_plugin/docs/feature_1) description of feature 1 ... | [`feature 2`](./bluer_plugin/docs/feature_2.md) [![image](../assets/blue-plugin/marquee.png?raw=true)](./bluer_plugin/docs/feature_2.md) description of feature 2 ... | [`feature 3`](./bluer_plugin/docs/feature_3.md) [![image](../assets/blue-plugin/marquee.png?raw=true)](./bluer_plugin/docs/feature_3.md) description of feature 3 ... |
 
 # aliases
 
@@ -56,4 +56,4 @@ pip3 install -e .
 
 [![pylint](https://github.com/kamangir/bluer-plugin/actions/workflows/pylint.yml/badge.svg)](https://github.com/kamangir/bluer-plugin/actions/workflows/pylint.yml) [![pytest](https://github.com/kamangir/bluer-plugin/actions/workflows/pytest.yml/badge.svg)](https://github.com/kamangir/bluer-plugin/actions/workflows/pytest.yml) [![bashtest](https://github.com/kamangir/bluer-plugin/actions/workflows/bashtest.yml/badge.svg)](https://github.com/kamangir/bluer-plugin/actions/workflows/bashtest.yml) [![PyPI version](https://img.shields.io/pypi/v/bluer-plugin.svg)](https://pypi.org/project/bluer-plugin/) [![PyPI - Downloads](https://img.shields.io/pypi/dd/bluer-plugin)](https://pypistats.org/packages/bluer-plugin)
 
-built by 🌀 [`bluer README`](https://github.com/kamangir/bluer-objects/tree/main/bluer_objects/README), based on 🌀 [`bluer_plugin-4.69.1`](https://github.com/kamangir/bluer-plugin).
+built by 🌀 [`bluer README`](../bluer-objects/bluer_objects/README), based on 🌀 [`bluer_plugin-4.70.1`](https://github.com/kamangir/bluer-plugin).
