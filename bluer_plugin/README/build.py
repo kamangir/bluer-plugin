@@ -8,9 +8,10 @@ from bluer_plugin.help.functions import help_functions
 from bluer_plugin.README.docs import docs
 
 
-def build():
+def build(args):
     return all(
         README.build(
+            args=args,
             items=readme.get("items", []),
             path=os.path.join(file.path(__file__), readme["path"]),
             ICON=ICON,
