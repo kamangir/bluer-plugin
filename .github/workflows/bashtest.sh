@@ -2,6 +2,7 @@
 
 function bashtest() {
     # set -x # verbose-mode
+    # /home/runner/work/bluer-journal/verbose
 
     local plugin_name=$1
 
